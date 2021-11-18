@@ -10,12 +10,14 @@ data = [
     {
         "id": 1,
         "nama": "Yosa",
-        "ipk": 3.72
+        "ipk": 3.72,
+        "time": datetime.now().strftime('%H:%M:%S')
     },
     {
         "id": 2,
         "nama": "yazid",
-        "ipk": 3.61
+        "ipk": 3.61,
+        "time": datetime.now().strftime('%H:%M:%S')
     }
 ]
 
