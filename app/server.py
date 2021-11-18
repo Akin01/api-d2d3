@@ -6,7 +6,18 @@ from datetime import datetime
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
-data = []
+data = [
+    {
+        "id": 1,
+        "nama": "Yosa",
+        "ipk": 3.72
+    },
+    {
+        "id": 2,
+        "nama": "yazid",
+        "ipk": 3.61
+    }
+]
 
 @app.route('/api/ipk/data', methods=['GET'])
 def ipk_data():
