@@ -1,5 +1,5 @@
 import flask
-from flask import request, jsonify, abort
+from flask import request, jsonify
 import json
 from datetime import datetime
 
