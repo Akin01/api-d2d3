@@ -1,3 +1,15 @@
+##################################################################
+## IPK API kelompok D2 dan D3 sudah dideploy diheroku.          ##
+## file Procfile digunakan untuk keperluan deployment ke heroku ## 
+## Disini kami menggunkan gunicorn webserver                    ##
+## web server gate menggunakan model WSGI                       ##
+##################################################################
+
+# API endpoint
+# https://api-d2d3.herokuapp.com/ipk/data -> POST request
+# https://api-d2d3.herokuapp.com/ipk/baru -> GET request
+
+
 # import flask library
 import flask
 from flask import request, jsonify
