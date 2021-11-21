@@ -6,8 +6,8 @@
 ##################################################################
 
 # API endpoint
-# https://api-d2d3.herokuapp.com/ipk/data -> POST request
-# https://api-d2d3.herokuapp.com/ipk/baru -> GET request
+# https://api-d2d3.herokuapp.com/ipk/data -> GET request
+# https://api-d2d3.herokuapp.com/ipk/baru -> POST request
 
 
 # import flask library
